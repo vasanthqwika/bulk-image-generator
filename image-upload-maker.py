@@ -109,9 +109,20 @@ def main():
 	dirName = "images"
 	storeId = 49 # edit store id
 
+	# check directory is found
+	directories = [
+		"./images/new-image",
+		"./images/original",
+		"./images/sql"
+	]
+
+	for directory in directories:
+		if not os.path.exists(directory):
+			os.mkdir(directory)
+
 	bulk_name_change(extensions, dirName, storeId)
 
 if __name__ == '__main__':
 	main()
 
-print("done")
+print("Image created successflly !")

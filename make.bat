@@ -18,3 +18,5 @@ del images\original\*  /f /q /s
 
 rem remove sql directory
 del images\sql\sqlQuery.sql /f /q /s
+
+pause rem stay prompt
