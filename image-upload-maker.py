@@ -113,7 +113,8 @@ def main():
 	directories = [
 		"./images/new-image",
 		"./images/original",
-		"./images/sql"
+		"./images/sql",
+		"./logs"
 	]
 
 	for directory in directories:
